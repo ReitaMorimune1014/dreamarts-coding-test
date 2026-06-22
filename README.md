@@ -19,10 +19,16 @@
 
 ## 実行方法
 
-### 標準入力から実行
+### PowerShell（Windows）
+
+```powershell
+Get-Content input.txt | node solution.js
+```
+
+### Git Bash / Mac / Linux
 
 ```bash
-node solution.js < input.txt
+cat input.txt | node solution.js
 ```
 
 ### 入力フォーマット
